@@ -1,0 +1,3 @@
+span is a inline element
+em-its take size as like parent element or tag but increase as 1,2em
+inner element cant take height or width

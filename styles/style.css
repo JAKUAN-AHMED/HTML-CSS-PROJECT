@@ -1,4 +1,82 @@
-h1
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*
 {
-    color: red;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.hero
+{
+    background-image: url('../images/cow.jpg');
+    background-position: bottom center;
+    background-size: cover;
+    height: 100vh;
+}
+.hero h1
+{
+    color: azure;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 60px;
+    font-family: cursive;
+    word-spacing: 40px;
+    letter-spacing: 15px;
+}
+.article
+{
+    width: 80%;
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px; */
+    margin: 60px auto;
+    background-color: rgb(136, 241, 241);
+    padding: 60px;
+    border-width: 15px;
+    border-style: solid;
+    border-color: yellow;
+
+}
+.article h2{
+    text-align: center;
+    font-size: 48px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: blue;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    padding-bottom: 30px;
+    margin-bottom: 60px;
+    
+}
+.article p
+{
+    font-size: 22px;
+    line-height: 2em;
+}
+.article p .imp 
+{
+    font-size: 2em;
+    background-color: wheat;
+    display: inline-block;
+    width: 350px;
+}
+.article,#car-type
+{
+    width: 80%;
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px; */
+    margin: 60px auto;
+    background-color: rgb(136, 241, 241);
+    padding: 60px;
+    border-width: 15px;
+    border-style: solid;
+    border-color: yellow;
+
 }
