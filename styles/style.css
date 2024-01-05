@@ -9,10 +9,11 @@
 }
 .hero
 {
-    background-image: url('../images/cow.jpg');
-    background-position: bottom center;
+    background-image: url('../images/headpic.jpg');
+    background-position: top center;
     background-size: cover;
-    height: 100vh;
+    height: 900px;
+    width: 100%;
     clip-path: polygon(0 0, 100% 0, 100% 71%, 49% 100%, 49% 100%, 0 70%);
 }
 
@@ -26,6 +27,7 @@
     font-family: cursive;
     word-spacing: 40px;
     letter-spacing: 15px;
+    color: yellow;
 }
 .article
 {
@@ -62,6 +64,7 @@
     border-right: 0;
     padding-bottom: 30px;
     margin-bottom: 60px;
+    color:rgb(150, 112, 41);
     
 }
 .car-images
