@@ -13,7 +13,9 @@
     background-position: bottom center;
     background-size: cover;
     height: 100vh;
+    clip-path: polygon(0 0, 100% 0, 100% 71%, 49% 100%, 49% 100%, 0 70%);
 }
+
 .hero h1
 {
     color: azure;
@@ -33,14 +35,23 @@
     margin-top: 60px;
     margin-bottom: 60px; */
     margin: 60px auto;
-    background-color: rgb(136, 241, 241);
     padding: 60px;
-    border-width: 15px;
-    border-style: solid;
-    border-color: yellow;
 
 }
-.article h2{
+.article,#car-type
+{
+    width: 80%;
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px; */
+    margin: 60px auto;
+    padding: 60px;
+    background:linear-gradient(45deg,rgb(247, 230, 199),rgb(233, 174, 233));
+   
+
+}
+.article h2,#car-type h2{
     text-align: center;
     font-size: 48px;
     border-width: 2px;
@@ -53,30 +64,20 @@
     margin-bottom: 60px;
     
 }
-.article p
+.car-images
 {
-    font-size: 22px;
-    line-height: 2em;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
 }
-.article p .imp 
-{
-    font-size: 2em;
-    background-color: wheat;
-    display: inline-block;
-    width: 350px;
+.car-images div{
+    min-width: 300px;
 }
-.article,#car-type
+.car-images img
 {
-    width: 80%;
-    /* margin-left: auto;
-    margin-right: auto;
-    margin-top: 60px;
-    margin-bottom: 60px; */
-    margin: 60px auto;
-    background-color: rgb(136, 241, 241);
-    padding: 60px;
-    border-width: 15px;
-    border-style: solid;
-    border-color: yellow;
-
+    width: 100%;
+    height: 260px;
+    
 }
